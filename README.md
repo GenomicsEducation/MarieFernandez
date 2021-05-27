@@ -37,6 +37,20 @@ Ingeniero en Biotecnología
 | Submission | Registration date: 7-May-2021 CNR |  
 | Relevance | Agricultural |  
 
+**Project Data:**  
+
+| Resource Name | Number of Links |  
+| ------ | ------- |  
+| SRA Experiments | 40 |  
+| BioSample | 40 |  
+
+**SRA Data Details**  
+
+| Parameter	| Value | 
+| ------- | ------- |
+| Data volume | Gbases	8 |  
+| Data volume | Mbytes	3104 |  
+
 **Referencias**  
 [Assembly](https://www.ncbi.nlm.nih.gov/assembly/GCF_002263795.1)  
 [Refseq](https://www.ncbi.nlm.nih.gov/nuccore/NM_174116.1) 
