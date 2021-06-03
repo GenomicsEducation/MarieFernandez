@@ -101,72 +101,72 @@ https://hpc.nih.gov/apps/sratoolkit.html
 
 **PRÁCTICA DE SHELL Y LINUX**  
 -Conectar al servidor POMEO usando  
-`<pc:~ usuario$ ssh -X nombre.apellido@200.54.220.141
-usuario@200.54.220.141's password: completar con la password>`  
+`pc:~ usuario$ ssh -X nombre.apellido@200.54.220.141
+usuario@200.54.220.141's password: completar con la password`  
 -Información de la versión del software bash  
-`<bash --version>`  
+`bash --version`  
 -Nombre del directorio en el que se encuentra  
-`<pwd>`  
+`pwd`  
 -Espacio total en el sistema, espacio usado, espacio disponible  
-`<df -hP>`  
+`df -hP`  
 -Evalua el performance de la CPU, similar al monitor del sistema  
-`<top>`  
+`top`  
 -Crea un directorio de trabajo denominado tesis  
-`<mkdir tesis>`  
+`mkdir tesis`  
 -Cambia al directorio tesis  
-`<cd tesis>`  
+`cd tesis`  
 -Para volver al directorio anterior  
-`<cd>`  
+`cd`  
 -Al usar el simbolo > que funciona como una tubería la información del espacio total del sistema se almacena en un documento de texto denominado espacio_libre_pomeo.txt  
-`<df -hP > espacio_libre_pomeo.txt>`  
+`df -hP > espacio_libre_pomeo.txt`  
 -Leer datos de un archivo e imprimir su contenido en la terminal  
-`<cat espacio_libre.txt>`  
+`cat espacio_libre.txt`  
 -Leer datos de un archivo sin imprimir en la terminal y recorrerlo  
-`<less espacio_libre.txt>`  
+`less espacio_libre.txt`  
 -Contar líneas, palabras y caracteres de un fichero  
-`<wc espacio_libre.txt>`  
+`wc espacio_libre.txt`  
 -Listado de objetos en un directorio  
-`<ls>`  
+`ls`  
 -Información con mas detalle de los objetos y de un tamaño que sea legible por humanos  
-`<ls -l -h>`  
+`ls -l -h`  
 -Remover un fichero o directorio forzando la acción  
-`<rm tesis  
-rm -r tesis>`  
+`rm tesis  
+rm -r tesis`  
 -Moverse por las líneas ejecutadas en la terminal  
-`<flecha arriba/abajo>`  
+`flecha arriba/abajo`  
 -Imprimir todas las líneas de comando ejecutadas en la terminal  
-`<history>`  
+`history`  
 -Autocompletar nombres de ficheros  
-`<tecla tab>`  
+`tecla tab`  
 -Mover el cursor al comienzo de la línea actual   
-`<ctrl-a>`  
+`ctrl-a`  
 -Mover el cursor al final de la línea actual  
-`<ctrl-e>`  
+`ctrl-e`  
 -Borrar desde el cursor hasta el final de la línea   
-`<ctrl-k>`  
+`ctrl-k`  
 -Borrar desde el cursor hasta el inicio de la línea  
-`<ctrl-u>`  
+`ctrl-u`  
 -Borrar la palabra inmediatamente detras del cursor  
-`<ctrl-w>`  
+`ctrl-w`  
 -Cerrar la sesión  
-`<exit>`  
+`exit`  
 
 **PRÁCTICA DESCARGA DE SECUENCIAS NGS CON SRA TOOLKIT**  
 -Instalación de SRA Toolkit  
-`<wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-centos_linux64.tar.gz
-tar -xzf sratoolkit.current-centos_linux64.tar.gz>`  
+`wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-centos_linux64.tar.gz
+tar -xzf sratoolkit.current-centos_linux64.tar.gz`  
 -Configuración de SRA Toolkit  
-`<bin/vdb-config --interactive>`   
+`bin/vdb-config --interactive`   
 -Descargar y mostrar el contenido de las 5 primeras secuencias del archivo SRR6019464  
-`<bin/fastq-dump -X 5 -Z SRR6019464>`  
+`bin/fastq-dump -X 5 -Z SRR6019464`  
 -Descargar el contenido de las 5 primeras secuencias y almacenarlas en un archivo con formato fastq  
- `<fastq-dump -X 5 SRR6019464>`  
+ `fastq-dump -X 5 SRR6019464`  
  -Descargar la biomuestra completa  
- `<fastq-dump --gzip --split-3 SRR6019464>`  
+ `fastq-dump --gzip --split-3 SRR6019464`  
  -Dejar de ejectuar  
- `<q>`  
+ `q`  
  -Explorar la muestra  
- `<zcat SRR6019464.fastq.gz | echo $((`wc -l`/4))>`  
+ `zcat SRR6019464.fastq.gz | echo $((``wc -l``/4))`  
  
  
 
