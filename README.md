@@ -148,22 +148,22 @@ rm -r tesis>`
 `<ctrl-u>`  
 -Borrar la palabra inmediatamente detras del cursor  
 `<ctrl-w>`  
--Cerrar la sesión
-`<exit>`
+-Cerrar la sesión  
+`<exit>`  
 
-**PRÁCTICA DESCARGA DE SECUENCIAS NGS CON SRA TOOLKIT**
+**PRÁCTICA DESCARGA DE SECUENCIAS NGS CON SRA TOOLKIT**  
 -Instalación de SRA Toolkit  
 `<wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-centos_linux64.tar.gz
 tar -xzf sratoolkit.current-centos_linux64.tar.gz>`  
 -Configuración de SRA Toolkit  
 `<bin/vdb-config --interactive>`   
 -Descargar y mostrar el contenido de las 5 primeras secuencias del archivo SRR6019464  
-`<bin/fastq-dump -X 5 -Z SRR6019464>` }
+`<bin/fastq-dump -X 5 -Z SRR6019464>`  
 -Descargar el contenido de las 5 primeras secuencias y almacenarlas en un archivo con formato fastq  
  `<fastq-dump -X 5 SRR6019464>`  
  -Descargar la biomuestra completa  
  `<fastq-dump --gzip --split-3 SRR6019464>`  
- -Dejar de ejectuar
+ -Dejar de ejectuar  
  `<q>`  
  -Explorar la muestra  
  `<zcat SRR6019464.fastq.gz | echo $((`wc -l`/4))>`  
