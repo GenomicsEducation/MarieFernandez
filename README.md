@@ -61,23 +61,36 @@ Ingeniero en Biotecnología
 
 **INSTALACIÓN Y CONFIGURACIÓN DE SOFTWARE PARA ACCESO REMOTO Y TRANSFERENCIA DE ARCHIVOS**
 -PuTTY  
-1. Para ingresar al servidor POMEO 
+1. Para descargar PuTTY busque en Google las palabras claves "Putty download"
 ![Imagen1](https://user-images.githubusercontent.com/57970928/120585691-39945a80-c400-11eb-9df2-d1a3b40b0e55.png)
+2.Ingrese al Link www.putty.org
 ![Imagen2](https://user-images.githubusercontent.com/57970928/120585694-3c8f4b00-c400-11eb-9399-37feeef9b913.png)
-![Imagen3](https://user-images.githubusercontent.com/57970928/120585705-40bb6880-c400-11eb-9986-3aa324e91c87.png)
+3. Haga clic en el link de descarga de Win x64
 ![Imagen4](https://user-images.githubusercontent.com/57970928/120585707-41ec9580-c400-11eb-9a41-482c962edaa1.png)  
+4. Haga clic en "Guardar archivo"
 ![Imagen5](https://user-images.githubusercontent.com/57970928/120585714-444eef80-c400-11eb-96e0-434ff39880f7.png)
+5. Espere a que finalice la descarga
 ![Imagen6](https://user-images.githubusercontent.com/57970928/120585719-46b14980-c400-11eb-90be-778fb27b29fb.png)
+6. Haga clic en "Aceptar"  
 ![Imagen7](https://user-images.githubusercontent.com/57970928/120585723-47e27680-c400-11eb-9908-9c5177bd568e.png)
+7. Abra el archivo y haga clic en "Next"  
 ![Imagen8](https://user-images.githubusercontent.com/57970928/120585730-49ac3a00-c400-11eb-8e0a-38391b6c2595.png)
+8. Haga clic en "Install"  
 ![Imagen9](https://user-images.githubusercontent.com/57970928/120585733-4add6700-c400-11eb-8bf2-abcd75f8a378.png)
+9. Haga clic en "Finish"  
+
 ![Imagen10](https://user-images.githubusercontent.com/57970928/120585734-4c0e9400-c400-11eb-875c-4b018b43094c.png)
 
 -WinSCP
+1. Busque en Google "WinSCP" y haga clic en el link "winscp.net"
 ![Imagen11](https://user-images.githubusercontent.com/57970928/120585770-5d57a080-c400-11eb-86a6-68ffa7c62471.png)
+2. Haga clic en descargar
 ![Imagen12](https://user-images.githubusercontent.com/57970928/120585774-60529100-c400-11eb-9634-1968bcce380a.png)
-![Imagen13](https://user-images.githubusercontent.com/57970928/120585778-6![Imagen15](https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png)
-0eb2780-c400-11eb-8a1d-0fb69afeda3d.png)
+3. Haga clic en "Guardar archivo"
+![Imagen13](https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png)
+4. Haga clic en "Aceptar"
+![Imagen15](https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png)
+5. 
 ![Imagen14](https://user-images.githubusercontent.com/57970928/120585779-6183be00-c400-11eb-8aa9-ddca9cda9887.png)
 ![Uploading Imagen15.png…]()
 ![Imagen16](https://user-images.githubusercontent.com/57970928/120585804-6c3e5300-c400-11eb-9bc9-b6a33ee8aa98.png)
