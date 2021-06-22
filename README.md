@@ -104,10 +104,13 @@ Ingeniero en Biotecnología
 ![Imagen23](https://user-images.githubusercontent.com/57970928/120585835-78c2ab80-c400-11eb-8863-1d70e1b7e9a2.png)
 
 **ACCESO REMOTO A SERVIDOR POMEO**  
-![Imagen24](https://user-images.githubusercontent.com/57970928/120585872-87a95e00-c400-11eb-9f70-234a6dbe8a89.png)
-![Imagen25](https://user-images.githubusercontent.com/57970928/120585878-89732180-c400-11eb-988b-babb04fd919c.png)
+1. Colocar la IP 200.54.220.141 y puerto número 22. Seleccionar tipo de conexión SSH.  
+![Imagen24](https://user-images.githubusercontent.com/57970928/120585872-87a95e00-c400-11eb-9f70-234a6dbe8a89.png)  
+2. Seleccionar "Data" en las categorías e ingresar nombre de usuario y contraseña.  
+![Captura de pantalla (129)](https://user-images.githubusercontent.com/57970928/122952078-c7060300-d34b-11eb-9059-1f4165efecb4.png)  
 
-**INSTALACIÓN Y CONFIGURACIÓN CONDA, NANO Y SRA TOOLKIT**
+
+**INSTALACIÓN Y CONFIGURACIÓN CONDA, NANO Y SRA TOOLKIT**  
 -Miniconda3  
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html  
 -nano  
