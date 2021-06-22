@@ -88,17 +88,19 @@ Ingeniero en Biotecnología
 ![Imagen12](https://user-images.githubusercontent.com/57970928/120585774-60529100-c400-11eb-9634-1968bcce380a.png)
 3. Haga clic en "Guardar archivo"
 ![Imagen13](https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png)
-4. Haga clic en "Aceptar"
-
+4. Haga clic en "INstalar para todos los usuarios"
 ![Imagen14](https://user-images.githubusercontent.com/57970928/120585779-6183be00-c400-11eb-8aa9-ddca9cda9887.png)
+5. Haga clic en "Aceptar"
 ![Imagen15](https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png)
+6. Elija la opción "Instalación típica(recomendado)" y presione "Siguiente"
 ![Imagen16](https://user-images.githubusercontent.com/57970928/120585804-6c3e5300-c400-11eb-9bc9-b6a33ee8aa98.png)
-![Imagen17](https://user-images.githubusercontent.com/57970928/120585808-6d6f8000-c400-11eb-91e0-e28760ca8fc1.png)
+7. Elija la opción "NC" y presione siguiente
 ![Imagen18](https://user-images.githubusercontent.com/57970928/120585812-6f394380-c400-11eb-99c9-59d6c85f16c6.png)
-![Imagen19](https://user-images.githubusercontent.com/57970928/120585818-719b9d80-c400-11eb-81f3-2da5c1e3986b.png)
+8. Presione "Instalar"
 ![Imagen20](https://user-images.githubusercontent.com/57970928/120585820-72343400-c400-11eb-9463-37f21dd22cc5.png)
+9. Si tiene sesiones almacenados en el cliente SSH PuTTY presione "Sí" para que sean importados a WinSCP
 ![Imagen21](https://user-images.githubusercontent.com/57970928/120585824-752f2480-c400-11eb-8d92-028516ae60a7.png)
-![Imagen22](https://user-images.githubusercontent.com/57970928/120585830-76f8e800-c400-11eb-9343-e6ee7d4b67cf.png)
+10. Haga clic en "Finalizar"
 ![Imagen23](https://user-images.githubusercontent.com/57970928/120585835-78c2ab80-c400-11eb-8863-1d70e1b7e9a2.png)
 
 **ACCESO REMOTO A SERVIDOR POMEO**  
