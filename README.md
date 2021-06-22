@@ -82,13 +82,13 @@ Ingeniero en Biotecnología
 ![Imagen10](https://user-images.githubusercontent.com/57970928/120585734-4c0e9400-c400-11eb-875c-4b018b43094c.png)
 
 -WinSCP
-1. Busque en Google "WinSCP" y haga clic en el link "winscp.net"
-![Imagen11](https://user-images.githubusercontent.com/57970928/120585770-5d57a080-c400-11eb-86a6-68ffa7c62471.png)
+1. Busque en Google "WinSCP" y haga clic en el link "winscp.net"  
+![Imagen11](https://user-images.githubusercontent.com/57970928/120585770-5d57a080-c400-11eb-86a6-68ffa7c62471.png)  
 2. Haga clic en descargar
 ![Imagen12](https://user-images.githubusercontent.com/57970928/120585774-60529100-c400-11eb-9634-1968bcce380a.png)
-3. Haga clic en "Guardar archivo"
-![Imagen13](https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png)
-4. Haga clic en "INstalar para todos los usuarios"
+3. Haga clic en "Guardar archivo"  
+![Imagen13](https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png)  
+4. Haga clic en "Instalar para todos los usuarios"
 ![Imagen14](https://user-images.githubusercontent.com/57970928/120585779-6183be00-c400-11eb-8aa9-ddca9cda9887.png)
 5. Haga clic en "Aceptar"
 ![Imagen15](https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png)
