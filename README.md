@@ -89,10 +89,9 @@ Ingeniero en Biotecnología
 3. Haga clic en "Guardar archivo"
 ![Imagen13](https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png)
 4. Haga clic en "Aceptar"
-![Imagen15](https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png)
-5. 
+
 ![Imagen14](https://user-images.githubusercontent.com/57970928/120585779-6183be00-c400-11eb-8aa9-ddca9cda9887.png)
-![Uploading Imagen15.png…]()
+![Imagen15](https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png)
 ![Imagen16](https://user-images.githubusercontent.com/57970928/120585804-6c3e5300-c400-11eb-9bc9-b6a33ee8aa98.png)
 ![Imagen17](https://user-images.githubusercontent.com/57970928/120585808-6d6f8000-c400-11eb-91e0-e28760ca8fc1.png)
 ![Imagen18](https://user-images.githubusercontent.com/57970928/120585812-6f394380-c400-11eb-99c9-59d6c85f16c6.png)
