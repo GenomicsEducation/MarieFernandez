@@ -60,11 +60,13 @@ Ingeniero en Biotecnología
 # Tarea 9  
 
 **INSTALACIÓN Y CONFIGURACIÓN DE SOFTWARE PARA ACCESO REMOTO Y TRANSFERENCIA DE ARCHIVOS**
--PuTTY
+-PuTTY  
+1. Para ingresar al servidor POMEO 
 ![Imagen1](https://user-images.githubusercontent.com/57970928/120585691-39945a80-c400-11eb-9df2-d1a3b40b0e55.png)
 ![Imagen2](https://user-images.githubusercontent.com/57970928/120585694-3c8f4b00-c400-11eb-9399-37feeef9b913.png)
 ![Imagen3](https://user-images.githubusercontent.com/57970928/120585705-40bb6880-c400-11eb-9986-3aa324e91c87.png)
-![Imagen4](https://user-images.githubusercontent.com/57970928/120585707-41ec9580-c400-11eb-9a41-482c962edaa1.png)![Imagen5](https://user-images.githubusercontent.com/57970928/120585714-444eef80-c400-11eb-96e0-434ff39880f7.png)
+![Imagen4](https://user-images.githubusercontent.com/57970928/120585707-41ec9580-c400-11eb-9a41-482c962edaa1.png)  
+![Imagen5](https://user-images.githubusercontent.com/57970928/120585714-444eef80-c400-11eb-96e0-434ff39880f7.png)
 ![Imagen6](https://user-images.githubusercontent.com/57970928/120585719-46b14980-c400-11eb-90be-778fb27b29fb.png)
 ![Imagen7](https://user-images.githubusercontent.com/57970928/120585723-47e27680-c400-11eb-9908-9c5177bd568e.png)
 ![Imagen8](https://user-images.githubusercontent.com/57970928/120585730-49ac3a00-c400-11eb-8e0a-38391b6c2595.png)
