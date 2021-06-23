@@ -62,51 +62,51 @@ Ingeniero en Biotecnología
 **INSTALACIÓN Y CONFIGURACIÓN DE SOFTWARE PARA ACCESO REMOTO Y TRANSFERENCIA DE ARCHIVOS**
 -PuTTY  
 1. Para descargar PuTTY busque en Google las palabras claves "Putty download"
-<img src="https://user-images.githubusercontent.com/57970928/120585691-39945a80-c400-11eb-9df2-d1a3b40b0e55.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585691-39945a80-c400-11eb-9df2-d1a3b40b0e55.png" width="400" />
 2.Ingrese al Link www.putty.org
-<img src="https://user-images.githubusercontent.com/57970928/120585694-3c8f4b00-c400-11eb-9399-37feeef9b913.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585694-3c8f4b00-c400-11eb-9399-37feeef9b913.png" width="400" />
 3. Haga clic en el link de descarga de Win x64
-<img src="https://user-images.githubusercontent.com/57970928/120585707-41ec9580-c400-11eb-9a41-482c962edaa1.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585707-41ec9580-c400-11eb-9a41-482c962edaa1.png" width="400" />
 4. Haga clic en "Guardar archivo"
-<img src="https://user-images.githubusercontent.com/57970928/120585714-444eef80-c400-11eb-96e0-434ff39880f7.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585714-444eef80-c400-11eb-96e0-434ff39880f7.png" width="400" />
 5. Espere a que finalice la descarga
-<img src="https://user-images.githubusercontent.com/57970928/120585719-46b14980-c400-11eb-90be-778fb27b29fb.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585719-46b14980-c400-11eb-90be-778fb27b29fb.png" width="400" />
 6. Haga clic en "Aceptar"  
-<img src="https://user-images.githubusercontent.com/57970928/120585723-47e27680-c400-11eb-9908-9c5177bd568e.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585723-47e27680-c400-11eb-9908-9c5177bd568e.png" width="400" />
 7. Abra el archivo y haga clic en "Next"  
-<img src="https://user-images.githubusercontent.com/57970928/120585730-49ac3a00-c400-11eb-8e0a-38391b6c2595.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585730-49ac3a00-c400-11eb-8e0a-38391b6c2595.png" width="400" />
 8. Haga clic en "Install"  
-<img src="https://user-images.githubusercontent.com/57970928/120585733-4add6700-c400-11eb-8bf2-abcd75f8a378.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585733-4add6700-c400-11eb-8bf2-abcd75f8a378.png" width="400" />
 9. Haga clic en "Finish"  
-<img src="https://user-images.githubusercontent.com/57970928/120585734-4c0e9400-c400-11eb-875c-4b018b43094c.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585734-4c0e9400-c400-11eb-875c-4b018b43094c.png" width="400" />
 
 -WinSCP
 1. Busque en Google "WinSCP" y haga clic en el link "winscp.net"  
-<img src="https://user-images.githubusercontent.com/57970928/120585770-5d57a080-c400-11eb-86a6-68ffa7c62471.png" width="400" />  
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585770-5d57a080-c400-11eb-86a6-68ffa7c62471.png" width="400" />  
 2. Haga clic en descargar
-<img src="https://user-images.githubusercontent.com/57970928/120585774-60529100-c400-11eb-9634-1968bcce380a.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585774-60529100-c400-11eb-9634-1968bcce380a.png" width="400" />
 3. Haga clic en "Guardar archivo"  
-<img src="https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png" width="400" />  
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585778-60eb2780-c400-11eb-8a1d-0fb69afeda3d.png" width="400" />  
 4. Haga clic en "Instalar para todos los usuarios"
-<img src="https://user-images.githubusercontent.com/57970928/120585779-6183be00-c400-11eb-8aa9-ddca9cda9887.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585779-6183be00-c400-11eb-8aa9-ddca9cda9887.png" width="400" />
 5. Haga clic en "Aceptar"
-<img src="https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585795-68123580-c400-11eb-8ab6-d9a14701823a.png" width="400" />
 6. Elija la opción "Instalación típica(recomendado)" y presione "Siguiente"
-<img src="https://user-images.githubusercontent.com/57970928/120585804-6c3e5300-c400-11eb-9bc9-b6a33ee8aa98.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585804-6c3e5300-c400-11eb-9bc9-b6a33ee8aa98.png" width="400" />
 7. Elija la opción "NC" y presione siguiente
-<img src="https://user-images.githubusercontent.com/57970928/120585812-6f394380-c400-11eb-99c9-59d6c85f16c6.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585812-6f394380-c400-11eb-99c9-59d6c85f16c6.png" width="400" />
 8. Presione "Instalar"
-<img src="https://user-images.githubusercontent.com/57970928/120585820-72343400-c400-11eb-9463-37f21dd22cc5.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585820-72343400-c400-11eb-9463-37f21dd22cc5.png" width="400" />
 9. Si tiene sesiones almacenados en el cliente SSH PuTTY presione "Sí" para que sean importados a WinSCP
-<img src="https://user-images.githubusercontent.com/57970928/120585824-752f2480-c400-11eb-8d92-028516ae60a7.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585824-752f2480-c400-11eb-8d92-028516ae60a7.png" width="400" />
 10. Haga clic en "Finalizar"
-<img src="https://user-images.githubusercontent.com/57970928/120585835-78c2ab80-c400-11eb-8863-1d70e1b7e9a2.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/120585835-78c2ab80-c400-11eb-8863-1d70e1b7e9a2.png" width="400" />
 
 **ACCESO REMOTO A SERVIDOR POMEO**  
 1. Colocar la IP 200.54.220.141 y puerto número 22. Seleccionar tipo de conexión SSH.  
-<img src="(https://user-images.githubusercontent.com/57970928/120585872-87a95e00-c400-11eb-9f70-234a6dbe8a89.png" width="400" />
+<img style="border:1px solid black;" src="(https://user-images.githubusercontent.com/57970928/120585872-87a95e00-c400-11eb-9f70-234a6dbe8a89.png" width="400" />
 2. Seleccionar "Data" en las categorías e ingresar nombre de usuario y contraseña.  
-<img src="https://user-images.githubusercontent.com/57970928/122952078-c7060300-d34b-11eb-9059-1f4165efecb4.png" width="400" />  
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/122952078-c7060300-d34b-11eb-9059-1f4165efecb4.png" width="400" />  
 
 
 **INSTALACIÓN Y CONFIGURACIÓN CONDA, NANO Y SRA TOOLKIT**  
@@ -194,12 +194,12 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 -FastQC  
 -Trimmomatic  
 1. Primero ejecutar el comando `conda config --add channels bioconda` y luego para la búsqueda del software ejecute `conda search -c bioconda fast-qc  conda search -c bioconda fastqc  conda search -c bioconda trimmomatic`
-<img src="https://user-images.githubusercontent.com/57970928/123107673-c03cc600-d407-11eb-8170-a08d3e842c44.png" width="400" />
-<img src="https://user-images.githubusercontent.com/57970928/123107677-c03cc600-d407-11eb-931c-9e621375192e.png" width="400" />
-<img src="https://user-images.githubusercontent.com/57970928/123107682-c0d55c80-d407-11eb-899d-e165797ff762.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107673-c03cc600-d407-11eb-8170-a08d3e842c44.png" width="400" />
+<img style="border:1px solid black;"  src="https://user-images.githubusercontent.com/57970928/123107677-c03cc600-d407-11eb-931c-9e621375192e.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107682-c0d55c80-d407-11eb-899d-e165797ff762.png" width="400" />
 2. Para la instalación del software ejecute  `conda install -c bioconda fastqc  conda install -c bioconda trimmomatic`
-<img src="https://user-images.githubusercontent.com/57970928/123107684-c16df300-d407-11eb-83c8-28e130791581.png" width="400" />
-<img src="https://user-images.githubusercontent.com/57970928/123107671-bf0b9900-d407-11eb-8bda-410d2b74a556.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107684-c16df300-d407-11eb-83c8-28e130791581.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107671-bf0b9900-d407-11eb-8bda-410d2b74a556.png" width="400" />
 
 **Alineamiento**  
 -BWA  
@@ -228,14 +228,14 @@ conda install samtools==1.11`
  #SBATCH -J prefetch_usuario
  /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/prefetch --max-size 100G SRR2006763 -O /home2/usuario/SRA_samples/
  /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/vdb-validate /home2/usuario/SRA_samples/SRR2006763/SRR2006763.sra` y correr el script
-<img src="https://user-images.githubusercontent.com/57970928/123112729-f2e8bd80-d40b-11eb-9d2b-ec605d43ee6d.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123112729-f2e8bd80-d40b-11eb-9d2b-ec605d43ee6d.png" width="400" />
 2. Acceder a la carpeta SRR2006763 y crear el siguiente script y correrlo `#!/bin/bash
  #SBATCH - J fdump_usuario
  /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`
  3. Para comprobar la integridad de los archivos ejecute el comando `md5sum SRR2006763_1.fastq SRR2006763_2.fastq > md5_samples` luego el comando para verificar la salida generada `cat md5_samples`   
-<img src="https://user-images.githubusercontent.com/57970928/123113583-a9e53900-d40c-11eb-98ad-6d839f3df4b7.png" width="400" />  
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113583-a9e53900-d40c-11eb-98ad-6d839f3df4b7.png" width="400" />  
 4. Finalmente para comprobar la integridad de las muestras el comando `md5sum -c md5_samples`
-<img src="https://user-images.githubusercontent.com/57970928/123113587-aa7dcf80-d40c-11eb-8a1b-e2c1569fec40.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113587-aa7dcf80-d40c-11eb-8a1b-e2c1569fec40.png" width="400" />
   
 -Realizar análisis de control de calidad  
 1. Correr el siguiente script ` #!/bin/bash
@@ -244,14 +244,14 @@ conda install samtools==1.11`
   2. Transferir archivos mediante protocolo FTP desde Servidor a Cliente entrando a la dirección http://200.54.220.141:8787/
   3. Iniciar sesión con los datos que usa para ingresar a POMEO
   4. Visualizar archivos generados al concluir la descarga
-  <img src="https://user-images.githubusercontent.com/57970928/123115704-4a882880-d40e-11eb-8f66-db4710e328bb.png" width="400" />  
+  <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123115704-4a882880-d40e-11eb-8f66-db4710e328bb.png" width="400" />  
   
 -Realizar filtrado y poda de secuencias    
 
 -Transferir archivos de control de calidad mediante protocolo FTP desde Servidor a Cliente  
  
 **ETAPAS DE ALINEAMIENTO**  
-<img src="" width="400" />
+<img style="border:1px solid black;" src="" width="400" />
 -Obtener secuencias Fastq  
 -Descarga genoma mitocondrial  
 -Subir genoma a POMEO con software de acceso remoto  
@@ -261,6 +261,7 @@ conda install samtools==1.11`
 -Orden de lecturas alineadas por posición  
 -Indexación con Samtools   
 -Exploración de archivos de salida en cada etapa  
+<img style="border:1px solid black;" src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" alt="Photo of Milford Sound in New Zealand" />
 
 
 
