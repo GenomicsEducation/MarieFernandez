@@ -186,7 +186,82 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
  -Explorar la muestra  
  `zcat SRR6019464.fastq.gz | echo $((``wc -l``/4))`  
  
+ # Tarea 10 y 11
  
+ **INSTALACIÓN Y CONFIGURACIÓN SOFTWARE**  
+
+**Control de calidad**  
+-FastQC  
+-Trimmomatic  
+1. Primero ejecutar el comando `conda config --add channels bioconda` y luego para la búsqueda del software ejecute `conda search -c bioconda fast-qc  conda search -c bioconda fastqc  conda search -c bioconda trimmomatic`
+![Captura de pantalla (130)](https://user-images.githubusercontent.com/57970928/123107673-c03cc600-d407-11eb-8170-a08d3e842c44.png)
+![Captura de pantalla (131)](https://user-images.githubusercontent.com/57970928/123107677-c03cc600-d407-11eb-931c-9e621375192e.png)
+![Captura de pantalla (132)](https://user-images.githubusercontent.com/57970928/123107682-c0d55c80-d407-11eb-899d-e165797ff762.png)
+2. Para la instalación del software ejecute  `conda install -c bioconda fastqc  conda install -c bioconda trimmomatic`
+![Captura de pantalla (133)](https://user-images.githubusercontent.com/57970928/123107684-c16df300-d407-11eb-83c8-28e130791581.png)
+![Captura de pantalla (134)](https://user-images.githubusercontent.com/57970928/123107671-bf0b9900-d407-11eb-8bda-410d2b74a556.png)
+
+**Alineamiento**  
+-BWA  
+1. Para configurar bioconda ejecute el siguiente comando `conda config --add channels bioconda`
+2. Instale el software BWA con el comando `conda install -c bioconda bwa`  
+  
+-Samtools  
+1. Para instalar samtools ejecute cada uno de estos comandos en orden  
+`conda install -c bioconda samtools  
+
+conda config --add channels bioconda   
+
+conda config --add channels conda-forge   
+
+conda install samtools==1.11` 
+2. Para verificar los directorios de instalación ejecute 
+`whereis sratoolkit   
+ whereis samtools  
+ whereis bwa` 
+ ![Captura de pantalla (147)](https://user-images.githubusercontent.com/57970928/123117584-dc446580-d40f-11eb-8802-0bfbaa8d8e96.png)
+
+
+**ETAPAS ANÁLISIS DE CONTROL DE CALIDAD, FILTRADO Y PODA**  
+-Descargar secuencias NGS usando SRA toolkit
+1. Primero crear un script con la siguiente información: `#!/bin/bash
+ #SBATCH -J prefetch_usuario
+ /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/prefetch --max-size 100G SRR2006763 -O /home2/usuario/SRA_samples/
+ /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/vdb-validate /home2/usuario/SRA_samples/SRR2006763/SRR2006763.sra` y correr el script
+![Captura de pantalla (131)](https://user-images.githubusercontent.com/57970928/123112729-f2e8bd80-d40b-11eb-9d2b-ec605d43ee6d.png)
+2. Acceder a la carpeta SRR2006763 y crear el siguiente script y correrlo `#!/bin/bash
+ #SBATCH - J fdump_usuario
+ /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`
+ 3. Para comprobar la integridad de los archivos ejecute el comando `md5sum SRR2006763_1.fastq SRR2006763_2.fastq > md5_samples` luego el comando para verificar la salida generada `cat md5_samples`   
+![Captura de pantalla (137)](https://user-images.githubusercontent.com/57970928/123113583-a9e53900-d40c-11eb-98ad-6d839f3df4b7.png)  
+4. Finalmente para comprobar la integridad de las muestras el comando `md5sum -c md5_samples`
+![Captura de pantalla (138)](https://user-images.githubusercontent.com/57970928/123113587-aa7dcf80-d40c-11eb-8a1b-e2c1569fec40.png)  
+  
+-Realizar análisis de control de calidad  
+1. Correr el siguiente script ` #!/bin/bash
+  #SBATCH - J fastqc_usuario
+  fastqc /home2/usuario/SRA_samples/SRR2006763/*.fastq`
+  2. Transferir archivos mediante protocolo FTP desde Servidor a Cliente entrando a la dirección http://200.54.220.141:8787/
+  3. Iniciar sesión con los datos que usa para ingresar a POMEO
+  4. Visualizar archivos generados al concluir la descarga
+  ![Captura de pantalla (140)](https://user-images.githubusercontent.com/57970928/123115704-4a882880-d40e-11eb-8f66-db4710e328bb.png)
+  
+-Realizar filtrado y poda de secuencias    
+
+-Transferir archivos de control de calidad mediante protocolo FTP desde Servidor a Cliente  
+ 
+**ETAPAS DE ALINEAMIENTO**  
+
+-Obtener secuencias Fastq  
+-Descarga genoma mitocondrial  
+-Subir genoma a POMEO con software de acceso remoto  
+-Indexación genoma mitocondrial  
+-Alineamiento de secuencias contra genoma mitocondrial  
+-Conversión SAM a BAM  
+-Orden de lecturas alineadas por posición  
+-Indexación con Samtools   
+-Exploración de archivos de salida en cada etapa  
+
 
 
 
