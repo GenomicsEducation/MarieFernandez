@@ -234,16 +234,16 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 
 🔴Descargar secuencias NGS usando SRA toolkit
 1. Primero crear un script con la siguiente información:   
-`#!/bin/bash`
-`#SBATCH -J prefetch_usuario`
- `/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/prefetch --max-size 100G SRR2006763 -O /home2/usuario/SRA_samples/`
- `/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/vdb-validate /home2/usuario/SRA_samples/SRR2006763/SRR2006763.sra`  
+`#!/bin/bash`  
+`#SBATCH -J prefetch_usuario`  
+ `/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/prefetch --max-size 100G SRR2006763 -O /home2/usuario/SRA_samples/`  
+ `/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/vdb-validate /home2/usuario/SRA_samples/SRR2006763/SRR2006763.sra`   
  y correr el script
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123112729-f2e8bd80-d40b-11eb-9d2b-ec605d43ee6d.png" width="400" />
 2. Acceder a la carpeta SRR2006763 y crear el siguiente script y correrlo  
-`#!/bin/bash`
- `#SBATCH - J fdump_usuario`
-`/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`
+`#!/bin/bash`  
+ `#SBATCH - J fdump_usuario`  
+`/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`  
  3. Para comprobar la integridad de los archivos ejecute el comando `md5sum SRR2006763_1.fastq SRR2006763_2.fastq > md5_samples` luego el comando para verificar la salida generada `cat md5_samples`   
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113583-a9e53900-d40c-11eb-98ad-6d839f3df4b7.png" width="400" />  
 4. Finalmente para comprobar la integridad de las muestras el comando `md5sum -c md5_samples`
@@ -252,9 +252,9 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 
 🔴Realizar análisis de control de calidad  
 1. Correr el siguiente script  
-`#!/bin/bash`
-`#SBATCH - J fastqc_usuario`
-`fastqc /home2/usuario/SRA_samples/SRR2006763/*.fastq`
+`#!/bin/bash`  
+`#SBATCH - J fastqc_usuario`  
+`fastqc /home2/usuario/SRA_samples/SRR2006763/*.fastq`  
   2. Transferir archivos mediante protocolo FTP desde Servidor a Cliente entrando a la dirección http://200.54.220.141:8787/
   3. Iniciar sesión con los datos que usa para ingresar a POMEO
   4. Visualizar archivos generados al concluir la descarga
@@ -271,9 +271,9 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 
 🔴Obtener secuencias Fastq  
 1. Crea una carpeta llamada "alineamiento" con el comando `mkdir alineamiento`
-2. Ingresa a la carpeta y transfiere los archivos de clase anterior colocando los siguientes comandos en la terminal con los comandos `cd alineamiento` y luego  
- `mv /home2/usuario/SRA_samples/SRR2006763/SRR2006763_1.fastq /home2/usuario/alineamiento/  
-  mv /home2/usuario/SRA_samples/SRR2006763/SRR2006763_2.fastq /home2/usuario/alineamiento/`
+2. Ingresa a la carpeta y transfiere los archivos de clase anterior colocando los siguientes comandos en la terminal con los comandos `cd alineamiento` y luego    
+ `mv /home2/usuario/SRA_samples/SRR2006763/SRR2006763_1.fastq /home2/usuario/alineamiento/`      
+ `mv /home2/usuario/SRA_samples/SRR2006763/SRR2006763_2.fastq /home2/usuario/alineamiento/`  
 
 🔴Descarga genoma mitocondrial 
 1. Descarga el genoma mitocondrial en formato fasta desde el siguiente link https://www.ncbi.nlm.nih.gov/genome/?term=salmo+salar
@@ -293,15 +293,16 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 
 
 🔴Alineamiento de secuencias contra genoma mitocondrial  
-1. Ejecute el comando `nano aln_mt.sh` para crear un script que contenga las siguientes instrucciones: `#!/bin/bash -l
-# para alinear tus dos secuencias fastq al genoma mitocondrial
-bwa mem mt.fasta SRR2006763_1.fastq SRR2006763_2.fastq > SRR2006763.sam 
-# Transformar tu archivo sam a bam
-samtools view -Sb -q 30 SRR2006763.sam > SRR2006763.bam 
-# ordenar tu archivo binario bam
-samtools sort SRR2006763.bam -o SRR2006763.sort.bam 
-# indexar tu archivo bam
-samtools index SRR2006763.sort.bam`
+1. Ejecute el comando `nano aln_mt.sh` para crear un script que contenga las siguientes instrucciones:  
+`#!/bin/bash -l`  
+`# para alinear tus dos secuencias fastq al genoma mitocondrial  
+bwa mem mt.fasta SRR2006763_1.fastq SRR2006763_2.fastq > SRR2006763.sam`   
+`# Transformar tu archivo sam a bam  
+samtools view -Sb -q 30 SRR2006763.sam > SRR2006763.bam`  
+`# ordenar tu archivo binario bam  
+samtools sort SRR2006763.bam -o SRR2006763.sort.bam`   
+`# indexar tu archivo bam  
+samtools index SRR2006763.sort.bam`  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123155305-f133ef80-d435-11eb-8481-fa31eac232da.png" width="400" />
 
 2. Ejecuta el script con `bash aln_mt.sh`
