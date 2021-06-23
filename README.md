@@ -241,9 +241,10 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
  y correr el script
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123112729-f2e8bd80-d40b-11eb-9d2b-ec605d43ee6d.png" width="400" />
 2. Acceder a la carpeta SRR2006763 y crear el siguiente script y correrlo  
-`#!/bin/bash`  
-`#SBATCH - J fdump_usuario`  
-`/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`  
+`#!/bin/bash 
+#SBATCH - J fdump_usuario
+/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`  
+  
 3. Para comprobar la integridad de los archivos ejecute el comando `md5sum SRR2006763_1.fastq SRR2006763_2.fastq > md5_samples` luego el comando para verificar la salida generada `cat md5_samples`   
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113583-a9e53900-d40c-11eb-98ad-6d839f3df4b7.png" width="400" />  
 4. Finalmente para comprobar la integridad de las muestras el comando `md5sum -c md5_samples`
