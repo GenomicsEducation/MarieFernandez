@@ -191,9 +191,14 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
  **INSTALACIÓN Y CONFIGURACIÓN SOFTWARE**  
 
 **Control de calidad**  
--FastQC  
--Trimmomatic  
-1. Primero ejecutar el comando `conda config --add channels bioconda` y luego para la búsqueda del software ejecute `conda search -c bioconda fast-qc  conda search -c bioconda fastqc  conda search -c bioconda trimmomatic`
+
+🔴FastQC  
+
+🔴Trimmomatic  
+1. Primero ejecutar el comando `conda config --add channels bioconda` y luego para la búsqueda del software ejecute  
+`conda search -c bioconda fast-qc`   
+`conda search -c bioconda fastqc`  
+`conda search -c bioconda trimmomatic`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107673-c03cc600-d407-11eb-8170-a08d3e842c44.png" width="400" />
 <img style="border:1px solid black;"  src="https://user-images.githubusercontent.com/57970928/123107677-c03cc600-d407-11eb-931c-9e621375192e.png" width="400" />
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107682-c0d55c80-d407-11eb-899d-e165797ff762.png" width="400" />
@@ -202,76 +207,92 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123107671-bf0b9900-d407-11eb-8bda-410d2b74a556.png" width="400" />
 
 **Alineamiento**  
--BWA  
+
+🔴BWA  
 1. Para configurar bioconda ejecute el siguiente comando `conda config --add channels bioconda`
 2. Instale el software BWA con el comando `conda install -c bioconda bwa`  
   
--Samtools  
+
+🔴Samtools  
 1. Para instalar samtools ejecute cada uno de estos comandos en orden  
-`conda install -c bioconda samtools  
+`conda install -c bioconda samtools`    
 
-conda config --add channels bioconda   
+`conda config --add channels bioconda`     
 
-conda config --add channels conda-forge   
+`conda config --add channels conda-forge`     
 
-conda install samtools==1.11` 
+`conda install samtools==1.11`  
+
 2. Para verificar los directorios de instalación ejecute 
-`whereis sratoolkit   
- whereis samtools  
- whereis bwa` 
+`whereis sratoolkit`   
+`whereis samtools`    
+`whereis bwa`   
  <img src="https://user-images.githubusercontent.com/57970928/123117584-dc446580-d40f-11eb-8802-0bfbaa8d8e96.png" width="400" />
 
 
 **ETAPAS ANÁLISIS DE CONTROL DE CALIDAD, FILTRADO Y PODA**  
--Descargar secuencias NGS usando SRA toolkit
-1. Primero crear un script con la siguiente información: `#!/bin/bash
- #SBATCH -J prefetch_usuario
- /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/prefetch --max-size 100G SRR2006763 -O /home2/usuario/SRA_samples/
- /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/vdb-validate /home2/usuario/SRA_samples/SRR2006763/SRR2006763.sra` y correr el script
+
+🔴Descargar secuencias NGS usando SRA toolkit
+1. Primero crear un script con la siguiente información:   
+`#!/bin/bash`
+`#SBATCH -J prefetch_usuario`
+ `/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/prefetch --max-size 100G SRR2006763 -O /home2/usuario/SRA_samples/`
+ `/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/vdb-validate /home2/usuario/SRA_samples/SRR2006763/SRR2006763.sra`  
+ y correr el script
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123112729-f2e8bd80-d40b-11eb-9d2b-ec605d43ee6d.png" width="400" />
-2. Acceder a la carpeta SRR2006763 y crear el siguiente script y correrlo `#!/bin/bash
- #SBATCH - J fdump_usuario
- /home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`
+2. Acceder a la carpeta SRR2006763 y crear el siguiente script y correrlo  
+`#!/bin/bash`
+ `#SBATCH - J fdump_usuario`
+`/home2/usuario/sratoolkit.2.11.0-centos_linux64/bin/fasterq-dump /home2/usuario/SRA_samples/SRR2006763/*.sra -O /home2/usuario/SRA_samples/SRR2006763/`
  3. Para comprobar la integridad de los archivos ejecute el comando `md5sum SRR2006763_1.fastq SRR2006763_2.fastq > md5_samples` luego el comando para verificar la salida generada `cat md5_samples`   
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113583-a9e53900-d40c-11eb-98ad-6d839f3df4b7.png" width="400" />  
 4. Finalmente para comprobar la integridad de las muestras el comando `md5sum -c md5_samples`
-<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113587-aa7dcf80-d40c-11eb-8a1b-e2c1569fec40.png" width="400" />
+<img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123113587-aa7dcf80-d40c-11eb-8a1b-e2c1569fec40.png" width="400" />  
   
--Realizar análisis de control de calidad  
-1. Correr el siguiente script ` #!/bin/bash
-  #SBATCH - J fastqc_usuario
-  fastqc /home2/usuario/SRA_samples/SRR2006763/*.fastq`
+
+🔴Realizar análisis de control de calidad  
+1. Correr el siguiente script  
+`#!/bin/bash`
+`#SBATCH - J fastqc_usuario`
+`fastqc /home2/usuario/SRA_samples/SRR2006763/*.fastq`
   2. Transferir archivos mediante protocolo FTP desde Servidor a Cliente entrando a la dirección http://200.54.220.141:8787/
   3. Iniciar sesión con los datos que usa para ingresar a POMEO
   4. Visualizar archivos generados al concluir la descarga
   <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123115704-4a882880-d40e-11eb-8f66-db4710e328bb.png" width="400" />  
   
--Realizar filtrado y poda de secuencias    
 
--Transferir archivos de control de calidad mediante protocolo FTP desde Servidor a Cliente  
+🔴Realizar filtrado y poda de secuencias    
+
+
+🔴Transferir archivos de control de calidad mediante protocolo FTP desde Servidor a Cliente  
  
 **ETAPAS DE ALINEAMIENTO**  
 <img style="border:1px solid black;" src="" width="400" />
--Obtener secuencias Fastq  
+
+🔴Obtener secuencias Fastq  
 1. Crea una carpeta llamada "alineamiento" con el comando `mkdir alineamiento`
 2. Ingresa a la carpeta y transfiere los archivos de clase anterior colocando los siguientes comandos en la terminal con los comandos `cd alineamiento` y luego  
  `mv /home2/usuario/SRA_samples/SRR2006763/SRR2006763_1.fastq /home2/usuario/alineamiento/  
   mv /home2/usuario/SRA_samples/SRR2006763/SRR2006763_2.fastq /home2/usuario/alineamiento/`
--Descarga genoma mitocondrial 
+
+🔴Descarga genoma mitocondrial 
 1. Descarga el genoma mitocondrial en formato fasta desde el siguiente link https://www.ncbi.nlm.nih.gov/genome/?term=salmo+salar
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123121342-17946380-d413-11eb-9532-c8a69f8f331f.png" width="400" />
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123121350-195e2700-d413-11eb-8adc-40b3af4f7ae9.png" width="400" />
   
--Subir genoma a POMEO con software de acceso remoto  
+
+🔴Subir genoma a POMEO con software de acceso remoto  
 1. Iniciar sesión en WinSCP con los datos de POMEO
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123144018-37368680-d429-11eb-8e1f-07e940c01595.png" width="400" />
 2.Ingresar a la carpeta "alineamiento" y arrastrar el archivo descargado del genoma mitocondrial hasta la carpeta
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123144741-0145d200-d42a-11eb-979d-ea808067d00a.png" width="400" />
--Indexación genoma mitocondrial 
+
+🔴Indexación genoma mitocondrial 
 1. Ejecutar el comando `bwa index mt.fasta`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123154279-a06fc700-d434-11eb-82f1-8f7db1e34db9.png" width="400" />
 
--Alineamiento de secuencias contra genoma mitocondrial  
+
+🔴Alineamiento de secuencias contra genoma mitocondrial  
 1. Ejecute el comando `nano aln_mt.sh` para crear un script que contenga las siguientes instrucciones: `#!/bin/bash -l
 # para alinear tus dos secuencias fastq al genoma mitocondrial
 bwa mem mt.fasta SRR2006763_1.fastq SRR2006763_2.fastq > SRR2006763.sam 
@@ -292,19 +313,23 @@ samtools index SRR2006763.sort.bam`
 4. Puedes realizar un análisis estadístico estándar con el siguiente comando `samtools flagstat SRR2006763.bam > muestra_stat.txt`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123157584-b54e5980-d438-11eb-8ee4-f9a81f1430a1.png" width="400" />
 
--Conversión SAM a BAM
+
+🔴Conversión SAM a BAM
 1. La conversión de SAM a BAM se puede hacer con el comando `samtools view -Sb -q 30 SRR2006763.sam > SRR2006763.bam`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123157631-c8612980-d438-11eb-96c3-45c121ef8f9a.png" width="400" />
 
--Orden de lecturas alineadas por posición 
+
+🔴Orden de lecturas alineadas por posición 
 1. Para alinear las secuencias se puede usar el comando `bwa mem mt.fasta SRR2006763_1.fastq SRR2006763_2.fastq > SRR2006763.sam`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123157700-e038ad80-d438-11eb-92d9-7458a32ab697.png" width="400" />
 
--Indexación con Samtools 
+
+🔴Indexación con Samtools 
 1. Se puede indexar el archivo bam con el comando `samtools index SRR2006763.sort.bam` 
 
 
--Exploración de archivos de salida en cada etapa  
+
+🔴Exploración de archivos de salida en cada etapa  
 1. Utiliza el comando `ls -l -h` para obtener un listado de los archivos que tienes en tu carpeta.
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/123158119-605f1300-d439-11eb-829f-9be1f04f35a0.png" width="400" />
 
