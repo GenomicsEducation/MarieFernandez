@@ -1,5 +1,5 @@
 **ETAPAS DE ALINEAMIENTO**  
-<img style="border:1px solid black;" src="" width="400" />
+
 
 🔴Obtener secuencias Fastq  
 1. Crea una carpeta llamada "alineamiento" con el comando `mkdir alineamiento`
