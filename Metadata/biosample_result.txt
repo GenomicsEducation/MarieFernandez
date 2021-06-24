@@ -1,0 +1,280 @@
+
+1. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066801; Sample name: 20BM; SRA: SRS8910543
+Organism:	Bos taurus
+		isolate: 20B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066801	ID: 19066801
+
+2. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066800; Sample name: 20AM; SRA: SRS8910542
+Organism:	Bos taurus
+		isolate: 20A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066800	ID: 19066800
+
+3. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066799; Sample name: 19BM; SRA: SRS8910541
+Organism:	Bos taurus
+		isolate: 19B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066799	ID: 19066799
+
+4. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066798; Sample name: 19AM; SRA: SRS8910540
+Organism:	Bos taurus
+		isolate: 19A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066798	ID: 19066798
+
+5. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066797; Sample name: 18BM; SRA: SRS8910539
+Organism:	Bos taurus
+		isolate: 18B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066797	ID: 19066797
+
+6. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066796; Sample name: 18AM; SRA: SRS8910538
+Organism:	Bos taurus
+		isolate: 18A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066796	ID: 19066796
+
+7. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066795; Sample name: 17BM; SRA: SRS8910537
+Organism:	Bos taurus
+		isolate: 17B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066795	ID: 19066795
+
+8. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066794; Sample name: 17AM; SRA: SRS8910536
+Organism:	Bos taurus
+		isolate: 17A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066794	ID: 19066794
+
+9. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066793; Sample name: 16BM; SRA: SRS8910535
+Organism:	Bos taurus
+		isolate: 16B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066793	ID: 19066793
+
+10. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066792; Sample name: 16AM; SRA: SRS8910534
+Organism:	Bos taurus
+		isolate: 16A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066792	ID: 19066792
+
+11. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066791; Sample name: 15BM; SRA: SRS8910532
+Organism:	Bos taurus
+		isolate: 15B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066791	ID: 19066791
+
+12. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066790; Sample name: 15AM; SRA: SRS8910531
+Organism:	Bos taurus
+		isolate: 15A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066790	ID: 19066790
+
+13. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066789; Sample name: 14BM; SRA: SRS8910530
+Organism:	Bos taurus
+		isolate: 14B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066789	ID: 19066789
+
+14. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066788; Sample name: 14AM; SRA: SRS8910529
+Organism:	Bos taurus
+		isolate: 14A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066788	ID: 19066788
+
+15. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066787; Sample name: 13BM; SRA: SRS8910528
+Organism:	Bos taurus
+		isolate: 13B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066787	ID: 19066787
+
+16. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066786; Sample name: 13AM; SRA: SRS8910527
+Organism:	Bos taurus
+		isolate: 13A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066786	ID: 19066786
+
+17. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066785; Sample name: 12BM; SRA: SRS8910526
+Organism:	Bos taurus
+		isolate: 12B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066785	ID: 19066785
+
+18. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066784; Sample name: 12AM; SRA: SRS8910525
+Organism:	Bos taurus
+		isolate: 12A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066784	ID: 19066784
+
+19. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066783; Sample name: 11BM; SRA: SRS8910524
+Organism:	Bos taurus
+		isolate: 11B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066783	ID: 19066783
+
+20. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066782; Sample name: 11AM; SRA: SRS8910523
+Organism:	Bos taurus
+		isolate: 11A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066782	ID: 19066782
+
+21. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066781; Sample name: 10BM; SRA: SRS8910521
+Organism:	Bos taurus
+		isolate: 10B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066781	ID: 19066781
+
+22. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066780; Sample name: 10AM; SRA: SRS8910520
+Organism:	Bos taurus
+		isolate: 10A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066780	ID: 19066780
+
+23. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066779; Sample name: 9BM; SRA: SRS8910519
+Organism:	Bos taurus
+		isolate: 9B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066779	ID: 19066779
+
+24. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066778; Sample name: 9AM; SRA: SRS8910518
+Organism:	Bos taurus
+		isolate: 9A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066778	ID: 19066778
+
+25. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066777; Sample name: 8BM; SRA: SRS8910517
+Organism:	Bos taurus
+		isolate: 8B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066777	ID: 19066777
+
+26. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066776; Sample name: 8AM; SRA: SRS8910516
+Organism:	Bos taurus
+		isolate: 8A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066776	ID: 19066776
+
+27. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066775; Sample name: 7BM; SRA: SRS8910515
+Organism:	Bos taurus
+		isolate: 7B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066775	ID: 19066775
+
+28. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066774; Sample name: 7AM; SRA: SRS8910514
+Organism:	Bos taurus
+		isolate: 7A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066774	ID: 19066774
+
+29. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066773; Sample name: 6BM; SRA: SRS8910513
+Organism:	Bos taurus
+		isolate: 6B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066773	ID: 19066773
+
+30. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066772; Sample name: 6AM; SRA: SRS8910512
+Organism:	Bos taurus
+		isolate: 6A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066772	ID: 19066772
+
+31. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066771; Sample name: 5BM; SRA: SRS8910549
+Organism:	Bos taurus
+		isolate: 5B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066771	ID: 19066771
+
+32. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066770; Sample name: 5AM; SRA: SRS8910548
+Organism:	Bos taurus
+		isolate: 5A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066770	ID: 19066770
+
+33. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066769; Sample name: 4BM; SRA: SRS8910547
+Organism:	Bos taurus
+		isolate: 4B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066769	ID: 19066769
+
+34. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066768; Sample name: 4AM; SRA: SRS8910546
+Organism:	Bos taurus
+		isolate: 4A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066768	ID: 19066768
+
+35. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066767; Sample name: 3BM; SRA: SRS8910545
+Organism:	Bos taurus
+		isolate: 3B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066767	ID: 19066767
+
+36. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066766; Sample name: 3AM; SRA: SRS8910544
+Organism:	Bos taurus
+		isolate: 3A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066766	ID: 19066766
+
+37. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066765; Sample name: 2BM; SRA: SRS8910533
+Organism:	Bos taurus
+		isolate: 2B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066765	ID: 19066765
+
+38. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066764; Sample name: 2AM; SRA: SRS8910522
+Organism:	Bos taurus
+		isolate: 2A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066764	ID: 19066764
+
+39. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066763; Sample name: 1BM; SRA: SRS8910511
+Organism:	Bos taurus
+		isolate: 1B; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066763	ID: 19066763
+
+40. Model organism or animal sample from Bos taurus
+Identifiers:	BioSample: SAMN19066762; Sample name: 1AM; SRA: SRS8910510
+Organism:	Bos taurus
+		isolate: 1A; breed: Friesian
+Package:	Model organism or animal; version 1.0
+Accession: SAMN19066762	ID: 19066762
