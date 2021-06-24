@@ -155,7 +155,7 @@ tar -xzf sratoolkit.current-centos_linux64.tar.gz`
 🔴FastQC  
 
 🔴Trimmomatic  
-Para más información sobre como instalar FastQC y Trimmomatic ingresa a: [FastQC_Trimmomatic](Tutoriales/Alineamiento/FastQC_Trimmomatic.md)
+_**Para más información sobre como instalar FastQC y Trimmomatic ingresa a: [Guía de instalación de FastQC y Trimmomatic](Tutoriales/Alineamiento/FastQC_Trimmomatic.md)**_
 
 **Alineamiento**  
 
@@ -178,7 +178,7 @@ Para más información sobre como instalar FastQC y Trimmomatic ingresa a: [Fast
 `whereis sratoolkit`   
 `whereis samtools`    
 `whereis bwa`   
- Para más información sobre cómo instalar Samtools ingrese a: [Samtools](Tutoriales/Alineamiento/Samtools.md)
+ _**Para más información sobre cómo instalar Samtools ingrese a: [Guía de instalación de Samtools](Tutoriales/Alineamiento/Samtools.md)**_
 
 
 **ETAPAS ANÁLISIS DE CONTROL DE CALIDAD, FILTRADO Y PODA**  
@@ -215,7 +215,7 @@ Para más información sobre como instalar FastQC y Trimmomatic ingresa a: [Fast
 
 
 🔴Transferir archivos de control de calidad mediante protocolo FTP desde Servidor a Cliente  
- Para más información sobre esta etapa ingresa a la guía paso a paso: [Análisis](Tutoriales/Alineamiento/Analisis.md)  
+ _**Para más información sobre esta etapa ingresa a la guía paso a paso: [Guía de Análisis de control de calidad, filtrado y poda](Tutoriales/Alineamiento/Analisis.md)**_
  
 **ETAPAS DE ALINEAMIENTO**  
 
@@ -273,5 +273,4 @@ samtools index SRR2006763.sort.bam`
 🔴Exploración de archivos de salida en cada etapa  
 1. Utiliza el comando `ls -l -h` para obtener un listado de los archivos que tienes en tu carpeta.
 
-Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Alineamiento](Tutoriales/Alineamiento/Alineamiento_secuencias.md)
-
+_**Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Guía Alineamiento](Tutoriales/Alineamiento/Alineamiento_secuencias.md)**_
