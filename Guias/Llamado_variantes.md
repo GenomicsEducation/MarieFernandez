@@ -1,5 +1,5 @@
   1. Conexión a servidor POMEO  
-        Para más información sobre cómo conectarte a POMEO ingresa al link[](Tutoriales/POMEO.md)  
+        Para más información sobre cómo conectarte a POMEO ingresa al link[](Guias/POMEO.md)  
     2. Configurar Bioconda e instalar Gatk4  
       <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661965-33b5ed00-de76-11eb-882c-e4e1a5356979.png" width="400" />  
     3. Instalar picard  
