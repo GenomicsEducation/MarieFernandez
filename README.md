@@ -274,3 +274,16 @@ samtools index SRR2006763.sort.bam`
 1. Utiliza el comando `ls -l -h` para obtener un listado de los archivos que tienes en tu carpeta.
 
 _**Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Guía Alineamiento](Tutoriales/Alineamiento/Alineamiento_secuencias.md)**_
+
+# Tarea 11  
+
+**Llamado de variantes**
+
+1. Conexión a servidor POMEO  
+2. Configurar Bioconda e instalar Gatk4  
+3. Instalar picard  
+4. Instalar vcftools  
+5.Crear directorio de trabajo “variant_call” y preparar archivos para el llamado de variantes
+6. Llamado de variantes
+7. Análisis de variantes con vcftools
+8. Visualización de variantes con IGV
