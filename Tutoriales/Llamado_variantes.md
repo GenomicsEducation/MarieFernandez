@@ -5,13 +5,17 @@
 
   1. Conexión a servidor POMEO  
         Para más información sobre cómo conectarte a POMEO ingresa al link[](Tutoriales/POMEO.md)  
-    2. Configurar Bioconda e instalar Gatk4  
+     
+   2. Configurar Bioconda e instalar Gatk4  
       <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661965-33b5ed00-de76-11eb-882c-e4e1a5356979.png" width="400" />  
-    3. Instalar picard  
+      
+   3. Instalar picard  
      <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661979-36b0dd80-de76-11eb-9db1-81445a666164.png" width="400" />  
-    4. Instalar vcftools  
+      
+   4. Instalar vcftools  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661983-37e20a80-de76-11eb-9000-eba024996df2.png" width="400" />  
-    5. Crear directorio de trabajo “variant_call” y preparar archivos para el llamado de variantes  
+     
+   5. Crear directorio de trabajo “variant_call” y preparar archivos para el llamado de variantes  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661988-387aa100-de76-11eb-89e4-903a9351f109.png" width="400" />  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661989-39133780-de76-11eb-84f2-9a07e3759c3d.png" width="400" />  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661993-39abce00-de76-11eb-9730-9e8d73d54f10.png" width="400" />  
@@ -22,12 +26,12 @@
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662684-28af8c80-de77-11eb-8085-0200d3a4d46a.png" width="400" />  
      <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662690-2a795000-de77-11eb-9cb1-593658bc1f6a.png" width="400" />  
    <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662694-2b11e680-de77-11eb-89e0-0ed02ecdfaeb.png" width="400" />  
-
+  
    6. Llamado de variantes  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124663208-cc00a180-de77-11eb-86e1-3e6b56cba6fb.png" width="400" />  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124663219-cefb9200-de77-11eb-9abd-431aaa9da1f7.png" width="400" />  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124663229-d28f1900-de77-11eb-8238-7bef57e6f378.png" width="400" />  
-
+  
 
    7. Análisis de variantes con vcftools  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665897-4bdc3b00-de7b-11eb-9458-0300113c9ddc.png" width="400" />  
@@ -40,7 +44,7 @@
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665925-539bdf80-de7b-11eb-905d-958c1536231c.png" width="400" />  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665928-54cd0c80-de7b-11eb-95bd-e3050ecee128.png" width="400" />  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665932-5565a300-de7b-11eb-8fa5-368cb84f982a.png" width="400" />  
-
+  
     
  8. Visualización de variantes con IGV  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665978-657d8280-de7b-11eb-9d55-7833a307e177.png" width="400" />  
