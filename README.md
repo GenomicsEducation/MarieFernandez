@@ -275,7 +275,7 @@ samtools index SRR2006763.sort.bam`
 
 _**Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Guía Alineamiento](Tutoriales/Alineamiento/Alineamiento_secuencias.md)**_
 
-# Tarea 11  
+# Tarea 12  
 
 **Llamado de variantes**
 
