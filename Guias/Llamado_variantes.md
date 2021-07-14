@@ -14,13 +14,11 @@
     Luego explore el documento con los comandos  
    `less ref_genome.fna  
     less ref_genome.fna.fai  
-  
 head -n 20 ref_genome.fna  
 head -n 30 ref_genome.fna.fai   
-  
 tail -n 20 ref_genome.fna  
 tail -n 20 ref_genome.fna.fai`  
-    <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661989-39133780-de76-11eb-84f2-9a07e3759c3d.png" width="400" />  
+  <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661989-39133780-de76-11eb-84f2-9a07e3759c3d.png" width="400" />  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661993-39abce00-de76-11eb-9730-9e8d73d54f10.png" width="400" />  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661998-3a446480-de76-11eb-95ea-762bcaa01996.png" width="400" />  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662002-3adcfb00-de76-11eb-9ed8-ffcc9f0c2214.png" width="400" />  
