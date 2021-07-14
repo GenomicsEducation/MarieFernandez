@@ -25,9 +25,8 @@ tail -n 20 ref_genome.fna.fai`
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662003-3b759180-de76-11eb-877c-859b045cd2e1.png" width="400" />  
     <img style="border:1px solid black;" src="    https://user-images.githubusercontent.com/57970928/124662009-3ca6be80-de76-11eb-8cbe-97aedb7b7b14.png" width="400" />  
     Investigue los cromosomas del salmón con los comandos   `grep 'NC_' ref_genome.fna
-grep -c 'NC_' ref_genome.fna
-
-grep 'NC_' ref_genome.fna.fai
+grep -c 'NC_' ref_genome.fna  
+grep 'NC_' ref_genome.fna.fai  
 grep -c 'NC_' ref_genome.fna.fai`  
     <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662684-28af8c80-de77-11eb-8085-0200d3a4d46a.png" width="400" />    
      <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662690-2a795000-de77-11eb-9cb1-593658bc1f6a.png" width="400" />  
@@ -35,7 +34,6 @@ grep -c 'NC_' ref_genome.fna.fai`
       `grep -c 'NW_' ref_genome.fna  
 grep -c 'NW_' ref_genome.fna.fai`  
    <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124662694-2b11e680-de77-11eb-89e0-0ed02ecdfaeb.png" width="400" />  
-
    6. Llamado de variantes  
    Para realizar el llamado de variantes debe obtener primero un archivo que representará un “diccionario de referencias” del genoma de referencia  utilice el comando:   
    `java -jar picard.jar CreateSequenceDictionary R=ref_genome.fna O=ref_genome.dict`  
@@ -50,21 +48,16 @@ Para el llamado de variantes se debe ejecutar el comando `gatk HaplotypeCaller -
 Use grep para contar el numero de lineas en el “vcf header”.  
 `grep "^#" -c  raw_variants.vcf`  
  Use grep para contar el número de variantes detectadas `grep "^#" -c -v raw_variants.vcf`   
-
 7. Análisis de variantes con vcftools  
-  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665897-4bdc3b00-de7b-11eb-9458-0300113c9ddc.png" width="400" />  
-Utilice el comando `grep "^#CHROM" raw_variants.vcf | cut -f 10-`  
-
+Utilice el comando `grep "^#CHROM" raw_variants.vcf | cut -f 10-` 
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665904-4da5fe80-de7b-11eb-9c0b-3698087f224a.png" width="400" />  
-
 Para imprimir el nombre de las columnas del llamado de variantes  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665907-4ed72b80-de7b-11eb-9dde-77e691419811.png" width="400" />    
 Para listar las 10 primeras variantes  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665911-50085880-de7b-11eb-8d5f-0dd94cf3cd22.png" width="400" />  
 Para entender la codificación de la columna INFO y FORMAT que contine la información del genotipo de la muestra para las primeras 10 variantes `grep "##INFO" raw_variants.vcf` 
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665914-51398580-de7b-11eb-9a3e-34a0252d6572.png" width="400" />  
-
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665916-526ab280-de7b-11eb-9365-4fca74556ac0.png" width="400" />   
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665923-53034900-de7b-11eb-8831-fba53a5d09bc.png" width="400" />  
 `grep "##FORMAT" raw_variants.vcf`  
@@ -72,12 +65,9 @@ Para entender la codificación de la columna INFO y FORMAT que contine la inform
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665928-54cd0c80-de7b-11eb-95bd-e3050ecee128.png" width="400" />  
  Use el siguiente comando para extraer las variantes con calidad mayor a 100
 `grep -v "#" raw_variants.vcf | awk '{if ($6 > 100 ) print }' > hq_variant.txt  
-
 grep "NC_" -c -v hq_variant.txt  
 grep "NW_" -c -v hq_variant.txt`  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665932-5565a300-de7b-11eb-8fa5-368cb84f982a.png" width="400" />  
-
-    
  8. Visualización de variantes con IGV  
 Descargue el archivo raw_variants.vcf usando Win Scp generado en su directorio “variant_call”  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124665978-657d8280-de7b-11eb-9d55-7833a307e177.png" width="400" />  
