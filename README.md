@@ -287,3 +287,5 @@ _**Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Guía Aline
 6. Llamado de variantes
 7. Análisis de variantes con vcftools
 8. Visualización de variantes con IGV
+
+Para una guía ilustrada sobre cómo hacer Llamado de variantes ingrese a: [Guía LLamado de Variantes](Guias/Llamado_variantes.md)
