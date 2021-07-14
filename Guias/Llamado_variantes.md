@@ -1,7 +1,7 @@
   1. Conexión a servidor POMEO  
   Para más información sobre cómo conectarte a POMEO ingresa al link[Guía de configuración POMEO](Guias/POMEO.md)   
               2. Configurar Bioconda e instalar Gatk4  
-    Utilice el comando `conda config --add channels bioconda` y luego `conda install -c bioconda gatk4`
+    Utilice el comando `conda config --add channels bioconda` y luego `conda install -c bioconda gatk4`  
       <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/124661965-33b5ed00-de76-11eb-882c-e4e1a5356979.png" width="400" />    
             3. Instalar picard  
     Utilice el comando `wget https://github.com/broadinstitute/picard/releases/download/2.8.1/picard.jar`    
