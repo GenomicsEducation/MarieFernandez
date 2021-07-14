@@ -278,7 +278,7 @@ _**Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Guía Aline
 # Tarea 12  
 
 **Llamado de variantes**
-
+Contenido:
 1. Conexión a servidor POMEO  
 2. Configurar Bioconda e instalar Gatk4  
 3. Instalar picard  
@@ -289,3 +289,16 @@ _**Para una guía ilustrada paso a paso sobre esta etapa ingresa a: [Guía Aline
 8. Visualización de variantes con IGV
 
 Para una guía ilustrada sobre cómo hacer Llamado de variantes ingrese a: [Guía LLamado de Variantes](Guias/Llamado_variantes.md)
+
+# Tarea 13  
+  
+Contenido:  
+1.Conectar a servidor Pomeo  
+2.Configurar bioconda e instalar programas para analisis  
+3.Crear directorio de trabajo “population” y preparar archivos para el analisis poblacional con plink y 
+admixture  
+4.Analisis de diversidad  
+5.Analisis de estructura poblacional  
+6.Analisis de admixture  
+
+Para una guía illustrada sobre cómo realizar Análisis de genómica poblacional y ancestría ingresa al link: []()
