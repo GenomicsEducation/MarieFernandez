@@ -301,4 +301,4 @@ admixture
 5.Analisis de estructura poblacional  
 6.Analisis de admixture  
 
-Para una guía illustrada sobre cómo realizar Análisis de genómica poblacional y ancestría ingresa al link: []()
+Para una guía illustrada sobre cómo realizar Análisis de genómica poblacional y ancestría ingresa al link: [Guía de Análisis poblacional y Ancestría](Genomica_Poblacional.md)
