@@ -7,8 +7,8 @@ Para configurar bioconda utilice el comando `conda config --add channels biocond
   
 ## 3.Crear directorio de trabajo “population” y preparar archivos para el analisis poblacional con plink y admixture  
 ### 3.1 Ingrese al directorio population y liste los archivos con los comandos  
-     ```cd population
-     ls -l -h```
+     `cd population
+     ls -l -h`
 
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712174-eb1e4272-95e5-460c-8382-812a569b912d.png" width="400" />  
   
@@ -39,7 +39,8 @@ Para Oceanía `vcftools --vcf EU_OC_US.vcf --geno-r2 --chr 1 --ld-window-bp 1000
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712213-9c5092be-8f8f-418c-9c76-7a9753775782.png" width="400" />   
 Para Norteamérica `vcftools --vcf EU_OC_US.vcf --geno-r2 --chr 1 --ld-window-bp 100000 --min-r2 0.001 --indv GNB12-1 --indv GNB12-10 --indv GNB12-11 --out US`  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712215-a72e998e-36b0-4f9b-9c35-99ec8d2284f6.png" width="400" />   
-Luego en **R Studio**, inserte el siguiente código ```EU <- read_delim("EU.geno.ld", delim = "\t")  
+Luego en **R Studio**, inserte el siguiente código  
+`EU <- read_delim("EU.geno.ld", delim = "\t")  
 OC <- read_delim("OC.geno.ld", delim = "\t")  
 US <- read_delim("US.geno.ld", delim = "\t")  
   
@@ -60,7 +61,7 @@ dd <- bind_rows(EU2,OC2,US2)
   
 dd$pop <- rep(c("EU","OC","US"),c(nrow(EU2),nrow(OC2),nrow(US2)))   
   
-write_csv(dd,"EU_OC_US.windowed.ld.csv")```  
+write_csv(dd,"EU_OC_US.windowed.ld.csv")`  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712220-7eadd566-eeae-42ba-b630-b9c51f6cfdc8.png" width="400" />   
   
 ### 4.4 Para generar gráficos de Heterogocidad individual use el código    
@@ -77,8 +78,9 @@ A <- ggplot(het,aes(x = Population, y = Heterozygosity, col = Population)) +
   A`   
     
 #### Diversidad de nucleótidos  
-Para graficar la Diversidad de nucleótidos inserte el siguiente código```pi_EU <- read_delim("EU.windowed.pi",delim = "\t") 
-pi_EU``` para la población de Europa.    
+Para graficar la Diversidad de nucleótidos inserte el siguiente código  
+`pi_EU <- read_delim("EU.windowed.pi",delim = "\t") 
+pi_EU` para la población de Europa.    
 Para la población de Oceanía `pi_OC <- read_delim("OC.windowed.pi",delim = "\t")  
 pi_OC`.  
 Para la población de Norteamérica `pi_US <- read_delim("US.windowed.pi",delim = "\t")  
@@ -86,20 +88,22 @@ pi_US`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712224-3c91fa1c-37f4-4101-b8fb-3eb191718763.png" width="400" />   
    
 #### Desequilibrio de ligamiento
-Para graficar el Desequilibrio de ligamento inserte el código `ld <- read_csv("EU_OC_US.windowed.ld.csv")   
-ld` y ```C <- ggplot(ld,aes(x = dist/1000, y = meanR2, col = pop)) +  
+Para graficar el Desequilibrio de ligamento inserte el código  
+`ld <- read_csv("EU_OC_US.windowed.ld.csv")   
+ld` y `C <- ggplot(ld,aes(x = dist/1000, y = meanR2, col = pop)) +  
       geom_point()+  
       geom_line()+  
       theme_bw()+  
       xlab("Distance (kb)")+  
       ylab(expression(R^2))+  
       scale_colour_discrete(name = "Population")  
-C```  
+C`
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712228-4e58fcf7-3876-4555-bace-90aec5794d72.png" width="400" />   
   
-### 4.5 Para obtener un gráfico de paneles múltiples inserte el código ```library(cowplot)  
+### 4.5 Para obtener un gráfico de paneles múltiples inserte el código  
+`library(cowplot)  
 top_row <- plot_grid(A,B,labels = "AUTO")   
-plot_grid(top_row,C,nrow = 2,labels = c("","C"))```  
+plot_grid(top_row,C,nrow = 2,labels = c("","C"))` 
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712230-ab855fb4-952f-42be-a383-03ad96ea988e.png" width="400" />  
   
 ## 5. Análisis de estructura poblacional  
@@ -143,7 +147,8 @@ plink --bfile EU_OC_US.FilteredPruned --keep EU_OC_US.FilteredPruned.rel.id --ma
 ` colnames(pca1) <- c("Population","Individual",paste0("PC",c(1:4)))  
     head(pca1)`  
 <img style="border:1px solid black;" src="https://user-images.githubusercontent.com/57970928/125712273-dae5043a-667e-4053-b6bd-80fdb3936940.png" width="400" />  
-y `mycols <- c("#a6cee3",  
+y 
+`mycols <- c("#a6cee3",  
               "#1f78b4",  
               "#b2df8a",  
               "#33a02c",  
