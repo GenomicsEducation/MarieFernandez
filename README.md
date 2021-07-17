@@ -61,13 +61,13 @@ Ingeniero en Biotecnología
 
 **INSTALACIÓN Y CONFIGURACIÓN DE SOFTWARE PARA ACCESO REMOTO Y TRANSFERENCIA DE ARCHIVOS**
 -PuTTY  
-Para más información sobre cómo instalar PuTTY ingresa a: [PuTTY](Tutoriales/Putty.md)  
+Para más información sobre cómo instalar PuTTY ingresa a: [PuTTY](Guias/Putty.md)  
 
 -WinSCP
-Para más información sobre cómo instalar WinSCP ingresa a: [WinSCP](Tutoriales/WinSCP.md)
+Para más información sobre cómo instalar WinSCP ingresa a: [WinSCP](Guias/WinSCP.md)
 
 **ACCESO REMOTO A SERVIDOR POMEO**  
-Para más información sobre cómo acceder al servidor remoto POMEO ingresa al link: [POMEO](Tutoriales/POMEO.md)
+Para más información sobre cómo acceder al servidor remoto POMEO ingresa al link: [POMEO](Guias/POMEO.md)
 
 **INSTALACIÓN Y CONFIGURACIÓN CONDA, NANO Y SRA TOOLKIT**  
 -Miniconda3  
